@@ -1,0 +1,24 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwsolutions/css-grid-simon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwwsolutions/css-grid-simon/issues"
+  },
+  "homepage": "https://github.com/wwwsolutions/css-grid-simon#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2"
+  }
+}
