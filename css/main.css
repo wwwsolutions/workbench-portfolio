@@ -35,6 +35,7 @@ body {
 
 /* CONTAINER */
 #diag-container {
+    /* filter: hue-rotate(90deg); */
     position: relative;
     z-index: 2;
     width: 40vw;
@@ -107,80 +108,24 @@ body {
         background-color: transparent;
     }
 
+    /* BUTTONS */
     .rectangle-about {
         grid-area: about;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-weight: 600;
-        color: #4bd16f;
-
-        font-size: 1.75vw;
-        border: 0.25vw solid #4bd16f;
-        border-radius: 0.4vw;
-
-        /* border-radius: 2em; */
-
-        background-color: rgba(75, 209, 111, 0.2);
         transform: translateY(-48%);
     }
 
     .rectangle-contact {
         grid-area: contact;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-weight: 600;
-        color: #4bd16f;
-        text-transform: capitalize;
-
-        font-size: 1.75vw;
-        border: 0.25vw solid #4bd16f;
-        border-radius: 0.4vw;
-
-        background-color: transparent;
         transform: translateY(48%);
     }
 
     .rectangle-portfolio {
         grid-area: port;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-weight: 600;
-        color: #4bd16f;
-        text-transform: capitalize;
-
-        font-size: 1.75vw;
-        border: 0.25vw solid #4bd16f;
-        border-radius: 0.4vw;
-
-        background-color: transparent;
         transform: translateY(-48%);
     }
 
     .rectangle-stack {
         grid-area: stack;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-weight: 600;
-        color: #4bd16f;
-        text-transform: capitalize;
-
-        font-size: 1.75vw;
-        border: 0.25vw solid #4bd16f;
-        border-radius: 0.4vw;
-
-        background-color: transparent;
         transform: translateY(48%);
     }
 
