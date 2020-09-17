@@ -1,0 +1,37 @@
+/* Block */
+.rhombus {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    position: relative;
+    background-color: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+}
+
+/* Element */
+.rhombus__shape {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Element */
+.rhombus__rect {
+    stroke: red;
+    stroke-width: 4;
+    background-color: red;
+}
+
+/* Element */
+.rhombus__label {
+    position: absolute;
+    display: block;
+
+    font-size: 2em;
+    color: red;
+}
