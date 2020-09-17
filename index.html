@@ -12,13 +12,18 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bem.css">
+    <link rel="stylesheet" href="css/components/element.css">
+    <link rel="stylesheet" href="css/components/rhombus.css">
     <!-- <script src="js/functions.js" defer></script> -->
 
 </head>
 
 <body>
 
-    <div id="diag-container">
+    <div class="container">
+
+
+        <!-- <div id="diag-container"> -->
         <section class="diag">
             <div class="c1"></div>
             <div class="c2"></div>
@@ -93,8 +98,6 @@
 
             <div class="rectangle-start">Start</div>
             <div class="rectangle-end">End</div>
-            <div class="rectangle-decision1"></div>
-            <div class="rectangle-decision2"></div>
 
             <!-- BUTTONS -->
             <div class="rectangle-about">
@@ -125,14 +128,37 @@
                 </a>
             </div>
 
-            <div class="path-1">
+            <div class="shape-decision1">
+                <!-- COMPONENT -->
+                <div class="rhombus">
+                    <svg class="rhombus__shape" width="100%" height="100%" viewBox="0 0 300 300" fill="none">
+                        <rect class="rhombus__rect" x="0" y="150" width="212" height="212" rx="5"
+                            transform="rotate(-45 0 150)" />
+                    </svg>
+                    <span class="rhombus__label">Is web developer?</span>
+                </div>
+                <!--// COMPONENT -->
+            </div>
+
+            <div class="shape-decision2">
+                <!-- COMPONENT -->
+                <div class="rhombus">
+                    <svg class="rhombus__shape" width="100%" height="100%" viewBox="0 0 300 300" fill="none">
+                        <rect class="rhombus__rect" x="0" y="150" width="212" height="212" rx="5"
+                            transform="rotate(-45 0 150)" />
+                    </svg>
+                    <span class="rhombus__label">Is competent?</span>
+                </div>
+                <!--// COMPONENT -->
+            </div>
+
+            <div class="path1">
                 <svg width="100%" height="100%" viewBox="0 0 429 393" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
-                        d="M423 0L423 188.734C423 194.257 418.523 198.734 413 198.734L16 198.734C10.4771 198.734 6 203.211 6 208.734L5.99999 392.5"
-                        stroke="#4BD16F" stroke-width="12" />
+                        d="M423 0L423 188.734C423 194.257 418.523 198.734 413 198.734L16 198.734C10.4771 198.734 6 203.211 6 208.734L5.99999 392.5" />
                 </svg>
             </div>
-            <div class="path-2">
+            <div class="path2">
                 <svg width="100%" height="100%" viewBox="0 0 278 280" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M271.632 9.48291L147.458 9.48291C141.935 9.48291 137.458 13.9601 137.458 19.4829L137.458 258.998C137.458 264.521 141.935 268.998 147.458 268.998H271.632"
@@ -146,8 +172,8 @@
                         d="M267.084 279.524V259.524L278 269.524L267.084 279.524Z" fill="#4BD16F" />
                 </svg>
             </div>
-            <div class="path-3"></div>
-            <div class="path-4">
+            <div class="path3"></div>
+            <div class="path4">
                 <svg width="100%" height="100%" viewBox="0 0 278 280" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M271.632 9.48291L147.458 9.48291C141.935 9.48291 137.458 13.9601 137.458 19.4829L137.458 258.998C137.458 264.521 141.935 268.998 147.458 268.998H271.632"
@@ -161,7 +187,7 @@
                         d="M267.084 279.524V259.524L278 269.524L267.084 279.524Z" fill="#4BD16F" />
                 </svg>
             </div>
-            <div class="path-5">
+            <div class="path5">
                 <svg width="100%" height="100%" viewBox="0 0 429 393" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M423 0L423 188.734C423 194.257 418.523 198.734 413 198.734L16 198.734C10.4771 198.734 6 203.211 6 208.734L5.99999 392.5"
@@ -171,7 +197,8 @@
             </div>
 
         </section>
-    </div>
+        <!-- </div> -->
+    </div><!-- .container -->
 
 
     <!-- BG IMAGE (At bottom, 'cause it's not really content) -->

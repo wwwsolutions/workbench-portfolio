@@ -1,0 +1,10 @@
+/* Block */
+.element {
+    background-color: #fff;
+}
+
+/* Modifier */
+.element--offset-right {
+    transform-origin: center center;
+    transform: translateX(8px);
+}
