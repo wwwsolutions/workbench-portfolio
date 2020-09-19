@@ -1,5 +1,5 @@
 /* Block */
-.path-i {
+.logo {
     /* height: 100%;
     width: 100%; */
     position: relative;
@@ -8,26 +8,27 @@
     justify-content: center;
     align-items: center;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    font-size: 5rems;
 }
 
 /* Element */
-.path-i__shape {
-    height: 10vw;
+.logo__shape {
+    /* height: 10vw;
     width: 100%;
-    display: block;
+    display: block; */
     /* background-color: #fff; */
 }
 
 /* Element */
-.path-i__path {
-    stroke-width: 12;
+.logo__path {
+    /* stroke-width: 12;
     stroke-linecap: square;
-    stroke: red;
+    stroke: red; */
 }
 
 /* Modifier */
-.path-i--offset-right {
-    transform-origin: center center;
-    transform: translateX(4px);
+.logo--offset-right {
+    /* transform-origin: center center;
+    transform: translateX(4px); */
 }
