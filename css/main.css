@@ -63,9 +63,9 @@ body {
         border: 1px solid red; */
         font-size: 1rem;
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(7, auto);
         /* grid-template-rows: 1fr auto 1fr 1fr 2fr 1fr 1fr auto 1fr; */
-        grid-template-rows: auto auto auto auto 2fr 1fr 1fr auto 1fr;
+        grid-template-rows: auto auto auto auto 1fr auto 1fr auto auto;
         grid-template-areas:
             "c1     c2      c3     start  start     c6          c7"
             "c8     pt1     pt1    pt1    c12       c13         c14"
@@ -118,33 +118,12 @@ body {
     }
 
     /* PATHS */
-    .path1 {
+    .shape-path1 {
         grid-area: pt1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        stroke: #4bd16f;
-        stroke-width: 6;
-
-        background-color: #aff;
     }
 
-    .path2 {
+    .shape-path2 {
         grid-area: pt2;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #afd;
-    }
-
-    .path2 svg {
-        fill: none;
-    }
-    .path2 svg path {
-        fill: none;
-        stroke: #4bd16f;
-        stroke-width: 4;
     }
 
     .path3 {
@@ -156,21 +135,12 @@ body {
         border-left: 6px solid #4bd16f;
     }
 
-    .path4 {
+    .shape-path4 {
         grid-area: pt4;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .path5 {
         grid-area: pt5;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: scaleX(-1); /* FLIP */
     }
 
     @media screen and (min-width: 27em) {

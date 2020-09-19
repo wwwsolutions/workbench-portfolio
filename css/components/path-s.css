@@ -1,9 +1,8 @@
 /* Block */
-.rectangle {
+.path-s {
     height: 100%;
     width: 100%;
     position: relative;
-    /* background-color: #ddd; */
 
     display: flex;
     justify-content: center;
@@ -15,26 +14,24 @@
 }
 
 /* Element */
-.rectangle__shape {
+.path-s__shape {
     height: 100%;
     width: 100%;
     display: block;
 }
 
 /* Element */
-.rectangle__rect {
-    stroke: red;
+.path-s__path {
     stroke-width: 4;
+    stroke: red;
 }
 
-/* Element */
-.rectangle__label {
-    position: absolute;
-    display: block;
-
-    font-size: 3vw;
-    margin: 2vw 4vw;
-    text-align: center;
-
-    color: red;
+/* Modifier */
+.path-s--flip-horizontally {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
 }

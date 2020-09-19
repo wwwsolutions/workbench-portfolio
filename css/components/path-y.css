@@ -1,0 +1,51 @@
+/* Block */
+.path-y {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+
+    border: 1px solid red;
+}
+
+/* Element */
+.path-y__shape {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Element */
+.path-y__path1,
+.path-y__path2,
+.path-y__path3 {
+    stroke-width: 3;
+    stroke-dasharray: 3;
+    stroke: red;
+}
+
+.path-y__point {
+    stroke-width: 3;
+    stroke: red;
+    fill: red;
+}
+
+.path-y__oval {
+    stroke-width: 2;
+    stroke: red;
+}
+
+.path-y__text {
+    fill: red;
+}
+
+.path-y__arrow {
+    fill: red;
+}
+
+/* Modifier */
