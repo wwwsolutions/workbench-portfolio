@@ -8,6 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    filter: blur(1px);
 }
 
 /* Element */
@@ -19,8 +21,14 @@
 
 /* Element */
 .rectangle-a__rect {
-    stroke: red;
     stroke-width: 10;
+    /* stroke: red; */
+    /* stroke: hsla(168, 100%, 23%, 1); */
+
+    stroke-width: 4;
+    stroke-linecap: square;
+    stroke: hsla(178, 100%, 22%, 0.65);
+
     /* background-color: red; */
 }
 
@@ -33,11 +41,13 @@
     margin: 2vw 4vw;
     text-align: center;
 
-    color: red;
+    /* color: red; */
+    /* color: hsla(168, 100%, 23%, 1); */
+    color: hsla(178, 100%, 22%, 0.65);
 }
 
 /* Modifier */
 .rectangle-a--font-bold {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
 }

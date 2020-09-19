@@ -17,12 +17,17 @@
     height: 100%;
     width: 100%;
     display: block;
+    filter: blur(2px);
 }
 
 /* Element */
 .rhombus__rect {
-    stroke: red;
-    stroke-width: 8;
+    /* stroke: red; */
+    /* stroke: hsla(168, 100%, 23%, 1);
+    stroke-width: 8; */
+    stroke-width: 4;
+    stroke-linecap: square;
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 /* Element */
@@ -32,10 +37,14 @@
 
     margin: 3vw;
 
-    font-size: 1.5vmax;
+    font-size: 1.7vmax;
     text-align: center;
 
-    color: red;
+    filter: blur(1px);
+
+    /* color: red; */
+    /* color: hsla(168, 100%, 23%, 1); */
+    color: hsla(178, 100%, 22%, 0.65);
 }
 
 /* Modifier */

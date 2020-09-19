@@ -10,6 +10,8 @@
 
     font-size: 1rem;
 
+    filter: blur(1px);
+
     /* border: 1px solid red; */
 }
 
@@ -18,6 +20,7 @@
     height: 100%;
     width: 100%;
     display: block;
+    filter: blur(1px);
 }
 
 /* Element */
@@ -26,26 +29,35 @@
 .path-y__path3 {
     stroke-width: 5;
     stroke-dasharray: 5;
-    stroke: red;
+    /* stroke: red; */
+    /* stroke: hsla(168, 100%, 23%, 1); */
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 .path-y__point {
     stroke-width: 5;
-    stroke: red;
-    fill: red;
+    /* stroke: hsla(168, 100%, 23%, 1); */
+    stroke: hsla(178, 100%, 22%, 0.65);
+    /* fill: red; */
 }
 
 .path-y__oval {
     stroke-width: 3;
-    stroke: red;
+    /* stroke: red; */
+    /* stroke: hsla(168, 100%, 23%, 1); */
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 .path-y__text {
-    fill: red;
+    /* fill: red; */
+    /* fill: hsla(168, 100%, 23%, 1); */
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 .path-y__arrow {
-    fill: red;
+    /* fill: red; */
+    /* fill: hsla(168, 100%, 23%, 1); */
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 /* Modifier */
