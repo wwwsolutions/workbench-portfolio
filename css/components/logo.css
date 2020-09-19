@@ -1,15 +1,11 @@
 /* Block */
 .logo {
-    /* height: 100%;
-    width: 100%; */
-    position: relative;
-
     display: flex;
-    justify-content: center;
-    align-items: center;
 
-    border: 1px solid red;
-    font-size: 5rems;
+    margin: 2vw 0 0 2vw;
+
+    /* background-color: #fff;
+    border: 1px solid red; */
 }
 
 /* Element */

@@ -128,16 +128,5 @@ body {
     @media screen and (min-width: 78em) {
     }
 }
+
 /* XXXXXXXX */
-
-.logo {
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: 1px solid red;
-    font-size: 3rem;
-}
