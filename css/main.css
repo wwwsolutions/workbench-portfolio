@@ -9,10 +9,10 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 70% 1fr;
-    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 1fr 50vmax 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas:
-        ".      .       . "
+        "logo   .       . "
         ".      diag    . "
         ".      .       . ";
 }
@@ -37,22 +37,6 @@ body {
     min-height: 50%;
 }
 
-/* CONTAINER */
-#diag-container {
-    /* filter: hue-rotate(90deg); */
-    position: relative;
-    z-index: 2;
-    width: 50%;
-    /* height: 800px; */
-    /* height: 1600px; */
-    /* min-height: 2408px; */
-    /* min-height: 408px; */
-    margin: 0 auto;
-    padding: 0;
-    background: lightpink;
-    /* font-size: 1rem; */
-}
-
 /* GRID */
 @supports (grid-area: auto) {
     .diag {
@@ -63,19 +47,18 @@ body {
         border: 1px solid red; */
         font-size: 1rem;
         display: grid;
-        grid-template-columns: repeat(7, auto);
-        /* grid-template-rows: 1fr auto 1fr 1fr 2fr 1fr 1fr auto 1fr; */
-        grid-template-rows: auto auto auto auto 1fr auto 1fr auto auto;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(9, auto);
         grid-template-areas:
             "c1     c2      c3     start  start     c6          c7"
             "c8     pt1     pt1    pt1    c12       c13         c14"
             "d1     d1      pt2    pt2    about     about       about"
             "d1     d1      pt2    pt2    contact   contact     contact"
-            "c32    pt3     c34    c35    c36       c37         c38"
+            "pt3    pt3     c31    c32    c33       c34         c35"
             "d2     d2      pt4    pt4    port      port        port"
             "d2     d2      pt4    pt4    stack     stack       stack"
-            "c56    pt5     pt5    pt5    c60       c61         c62"
-            "c64    c65     c66    end    end       c69         c70";
+            "c50    pt5     pt5    pt5    c54       c55         c56"
+            "c57    c58     c59    end    end       c62         c63";
     }
 
     /* RECTANGLES */
@@ -126,13 +109,8 @@ body {
         grid-area: pt2;
     }
 
-    .path3 {
+    .shape-path3 {
         grid-area: pt3;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-left: 6px solid #4bd16f;
     }
 
     .shape-path4 {
@@ -151,3 +129,15 @@ body {
     }
 }
 /* XXXXXXXX */
+
+.logo {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid red;
+    font-size: 3rem;
+}

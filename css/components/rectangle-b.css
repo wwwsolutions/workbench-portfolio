@@ -1,0 +1,41 @@
+/* Block */
+.rectangle-b {
+    height: 100%;
+    width: 70%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 0;
+}
+
+/* Element */
+.rectangle-b__shape {
+    height: 100%;
+    width: 100%;
+    /* display: block; */
+}
+
+/* Element */
+.rectangle-b__rect {
+    stroke: red;
+    stroke-width: 10;
+    fill: red;
+    /* background-color: red; */
+}
+
+/* Element */
+.rectangle-b__label {
+    position: absolute;
+    display: block;
+
+    font-size: 1.5vw;
+    /* margin: 2vw 4vw; */
+    text-align: center;
+
+    color: white;
+    /* background-color: #fdd; */
+    padding: 10px 20px;
+}

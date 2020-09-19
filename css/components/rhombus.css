@@ -8,10 +8,8 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 1rem;
-
-    background-color: #ddd;
-    border: 1px solid red;
+    /* background-color: #ddd; */
+    /* border: 1px solid red; */
 }
 
 /* Element */
@@ -24,7 +22,7 @@
 /* Element */
 .rhombus__rect {
     stroke: red;
-    stroke-width: 4;
+    stroke-width: 8;
 }
 
 /* Element */
@@ -32,9 +30,16 @@
     position: absolute;
     display: block;
 
-    font-size: 2vw;
     margin: 3vw;
+
+    font-size: 1.5vmax;
     text-align: center;
 
     color: red;
+}
+
+/* Modifier */
+.rhombus--offset-right {
+    transform-origin: center center;
+    transform: translateX(4px);
 }

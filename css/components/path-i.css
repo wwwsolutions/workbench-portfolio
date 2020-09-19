@@ -1,0 +1,33 @@
+/* Block */
+.path-i {
+    /* height: 100%;
+    width: 100%; */
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
+/* Element */
+.path-i__shape {
+    height: 10vw;
+    width: 100%;
+    display: block;
+    /* background-color: #fff; */
+}
+
+/* Element */
+.path-i__path {
+    stroke-width: 12;
+    stroke-linecap: square;
+    stroke: red;
+}
+
+/* Modifier */
+.path-i--offset-right {
+    transform-origin: center center;
+    transform: translateX(4px);
+}
