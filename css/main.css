@@ -7,15 +7,6 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
-.container {
-    display: grid;
-    grid-template-columns: 1fr 50vmax 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas:
-        "logo   .       . "
-        ".      diag    . "
-        ".      .       . ";
-}
 
 /* BG IMAGE */
 #bg {
@@ -37,8 +28,30 @@ body {
     min-height: 50%;
 }
 
+.bg-blend {
+    background-image: url(../images/devn-vXpbB4-4OOM-unsplash-medium-optimized-bw-1920x2408.jpg);
+    background-color: hsla(100, 0, 100, 1);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12),
+        url(../images/devn-vXpbB4-4OOM-unsplash-medium-optimized-bw-1920x2408.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* ######################################################### */
+
 /* GRID */
 @supports (grid-area: auto) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 50vmax 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-areas:
+            "logo   .       . "
+            ".      diag    . "
+            ".      .       . ";
+    }
+
     .diag {
         grid-area: diag;
 
@@ -50,15 +63,20 @@ body {
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: repeat(9, auto);
         grid-template-areas:
-            "c1     c2      c3     start  start     c6          c7"
-            "c8     pt1     pt1    pt1    c12       c13         c14"
-            "d1     d1      pt2    pt2    about     about       about"
-            "d1     d1      pt2    pt2    contact   contact     contact"
-            "pt3    pt3     c31    c32    c33       c34         c35"
-            "d2     d2      pt4    pt4    port      port        port"
-            "d2     d2      pt4    pt4    stack     stack       stack"
-            "c50    pt5     pt5    pt5    c54       c55         c56"
-            "c57    c58     c59    end    end       c62         c63";
+            ".      .       .       start   start      .            .       "
+            ".      pt1     pt1     pt1     .          .            .       "
+            "d1     d1      pt2     pt2     about       about       about   "
+            "d1     d1      pt2     pt2     contact     contact     contact "
+            "pt3    pt3     .       .       .           .           .       "
+            "d2     d2      pt4     pt4    port         port        port    "
+            "d2     d2      pt4     pt4    stack        stack       stack   "
+            ".      pt5     pt5     pt5    .            .           .       "
+            ".      .       .       end    end          .           .       ";
+    }
+
+    /* LOGO */
+    .shape-logo {
+        grid-area: logo;
     }
 
     /* RECTANGLES */
@@ -117,7 +135,7 @@ body {
         grid-area: pt4;
     }
 
-    .path5 {
+    .shape-path5 {
         grid-area: pt5;
     }
 

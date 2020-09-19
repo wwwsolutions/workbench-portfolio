@@ -10,6 +10,8 @@
 
     font-size: 1rem;
 
+    filter: blur(1px);
+
     /* border: 1px solid red; */
 }
 
@@ -22,8 +24,12 @@
 
 /* Element */
 .path-s__path {
-    stroke-width: 10;
-    stroke: red;
+    /* stroke-width: 10; */
+    /* stroke: red; */
+    /* stroke: hsla(168, 100%, 23%, 1); */
+    stroke-width: 4;
+    stroke-linecap: square;
+    stroke: hsla(178, 100%, 22%, 0.65);
 }
 
 /* Modifier */
