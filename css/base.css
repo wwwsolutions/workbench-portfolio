@@ -6,7 +6,8 @@
     color: #fff;
     /* text-shadow: 1px 1px 0 #000; */
     box-sizing: border-box;
-    font-family: Ubuntu, Helvetica, Verdana, Arial, sans-serif;
+    /* font-family: Ubuntu, Helvetica, Verdana, Arial, sans-serif; */
+    font-family: "Oswald", sans-serif;
 }
 
 html {

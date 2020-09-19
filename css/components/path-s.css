@@ -10,7 +10,7 @@
 
     font-size: 1rem;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Element */
@@ -22,7 +22,7 @@
 
 /* Element */
 .path-s__path {
-    stroke-width: 4;
+    stroke-width: 10;
     stroke: red;
 }
 

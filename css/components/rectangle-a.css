@@ -1,0 +1,45 @@
+/* Block */
+.rectangle-a {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* background-color: #ddd; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 0;
+}
+
+/* Element */
+.rectangle-a__shape {
+    height: 100%;
+    width: 70%;
+    /* display: block; */
+}
+
+/* Element */
+.rectangle-a__rect {
+    stroke: red;
+    stroke-width: 10;
+    /* background-color: red; */
+}
+
+/* Element */
+.rectangle-a__label {
+    position: absolute;
+    display: block;
+
+    font-size: 2vw;
+    margin: 2vw 4vw;
+    text-align: center;
+
+    color: red;
+}
+
+/* Modifier */
+.rectangle-a--font-bold {
+    text-transform: uppercase;
+    font-weight: 800;
+}

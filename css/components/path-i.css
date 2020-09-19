@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Element */
@@ -20,9 +20,13 @@
 
 /* Element */
 .path-i__path {
-    stroke-width: 23;
+    stroke-width: 10;
     stroke-linecap: square;
     stroke: red;
 }
 
 /* Modifier */
+.path-i--offset-right {
+    transform-origin: center center;
+    transform: translateX(4px);
+}

@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Grid Demo</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i"
+    <!-- <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,600,600i"
+        rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/base.css">
@@ -14,7 +17,8 @@
     <link rel="stylesheet" href="css/bem.css">
     <link rel="stylesheet" href="css/components/element.css">
     <link rel="stylesheet" href="css/components/rhombus.css">
-    <link rel="stylesheet" href="css/components/rectangle.css">
+    <link rel="stylesheet" href="css/components/rectangle-a.css">
+    <link rel="stylesheet" href="css/components/rectangle-b.css">
     <link rel="stylesheet" href="css/components/path-s.css">
     <link rel="stylesheet" href="css/components/path-y.css">
     <link rel="stylesheet" href="css/components/path-i.css">
@@ -89,31 +93,24 @@
             <div class="c61"></div>
             <div class="c62"></div>
             <div class="c63"></div>
-            <div class="c64"></div>
-            <div class="c65"></div>
-            <div class="c66"></div>
-            <div class="c67"></div>
-            <div class="c68"></div>
-            <div class="c69"></div>
-            <div class="c70"></div>
 
             <div class="rectangle-start">
                 <!-- COMPONENT -->
-                <div class="rectangle">
-                    <svg class="rectangle__shape" width="100%" height="100%" viewBox="0 0 200 120" fill="none">
-                        <rect class="rectangle__rect" x="2" y="2" width="196" height="116" rx="47" />
+                <div class="rectangle-a rectangle-a--font-bold">
+                    <svg class="rectangle-a__shape" width="100%" height="100%" viewBox="0 0 200 120" fill="none">
+                        <rect class="rectangle-a__rect" x="2" y="2" width="196" height="116" rx="47" />
                     </svg>
-                    <span class="rectangle__label">Start</span>
+                    <span class="rectangle-a__label">Start</span>
                 </div>
                 <!--// COMPONENT -->
             </div>
             <div class="rectangle-end">
                 <!-- COMPONENT -->
-                <div class="rectangle">
-                    <svg class="rectangle__shape" width="100%" height="100%" viewBox="0 0 200 120" fill="none">
-                        <rect class="rectangle__rect" x="2" y="2" width="196" height="116" rx="47" />
+                <div class="rectangle-a rectangle-a--font-bold">
+                    <svg class="rectangle-a__shape" width="100%" height="100%" viewBox="0 0 200 120" fill="none">
+                        <rect class="rectangle-a__rect" x="2" y="2" width="196" height="116" rx="47" />
                     </svg>
-                    <span class="rectangle__label">End</span>
+                    <span class="rectangle-a__label">End</span>
                 </div>
                 <!--// COMPONENT -->
 
@@ -121,36 +118,52 @@
 
             <!-- BUTTONS -->
             <div class="rectangle-about">
-                <a href="#" class="btn btn--big btn--blue">
-                    <span class="btn__icon">ICO</span>
-                    <span class="btn__text">About me.</span>
-                </a>
+                <!-- COMPONENT -->
+                <div class="rectangle-b">
+                    <svg class="rectangle-b__shape" width="100%" height="100%" viewBox="0 0 300 120" fill="none">
+                        <rect class="rectangle-b__rect" x="1" y="1" width="298" height="118" rx="4" />
+                    </svg>
+                    <span class="rectangle-b__label">About me.</span>
+                </div>
+                <!--// COMPONENT -->
             </div>
 
             <div class="rectangle-contact">
-                <a href="#" class="btn btn--big btn--blue">
-                    <span class="btn__icon">ICO</span>
-                    <span class="btn__text">Get in touch!</span>
-                </a>
+                <!-- COMPONENT -->
+                <div class="rectangle-b">
+                    <svg class="rectangle-b__shape" width="100%" height="100%" viewBox="0 0 300 120" fill="none">
+                        <rect class="rectangle-b__rect" x="1" y="1" width="298" height="118" rx="4" />
+                    </svg>
+                    <span class="rectangle-b__label">Get in touch!</span>
+                </div>
+                <!--// COMPONENT -->
             </div>
 
             <div class="rectangle-portfolio">
-                <a href="#" class="btn btn--big btn--blue">
-                    <span class="btn__icon">ICO</span>
-                    <span class="btn__text">Portfolio.</span>
-                </a>
+                <!-- COMPONENT -->
+                <div class="rectangle-b">
+                    <svg class="rectangle-b__shape" width="100%" height="100%" viewBox="0 0 300 120" fill="none">
+                        <rect class="rectangle-b__rect" x="1" y="1" width="298" height="118" rx="4" />
+                    </svg>
+                    <span class="rectangle-b__label">Portfolio.</span>
+                </div>
+                <!--// COMPONENT -->
             </div>
 
             <div class="rectangle-stack">
-                <a href="#" class="btn btn--big btn--blue">
-                    <span class="btn__icon">ICO</span>
-                    <span class="btn__text">My stack.</span>
-                </a>
+                <!-- COMPONENT -->
+                <div class="rectangle-b">
+                    <svg class="rectangle-b__shape" width="100%" height="100%" viewBox="0 0 300 120" fill="none">
+                        <rect class="rectangle-b__rect" x="1" y="1" width="298" height="118" rx="4" />
+                    </svg>
+                    <span class="rectangle-b__label">My stack.</span>
+                </div>
+                <!--// COMPONENT -->
             </div>
 
             <div class="shape-decision1">
                 <!-- COMPONENT -->
-                <div class="rhombus">
+                <div class="rhombus rhombus--offset-right">
                     <svg class="rhombus__shape" width="100%" height="100%" viewBox="0 0 300 300" fill="none">
                         <rect class="rhombus__rect" x="0" y="150" width="212" height="212" rx="5"
                             transform="rotate(-45 0 150)" />
@@ -162,7 +175,7 @@
 
             <div class="shape-decision2">
                 <!-- COMPONENT -->
-                <div class="rhombus">
+                <div class="rhombus rhombus--offset-right">
                     <svg class="rhombus__shape" width="100%" height="100%" viewBox="0 0 300 300" fill="none">
                         <rect class="rhombus__rect" x="0" y="150" width="212" height="212" rx="5"
                             transform="rotate(-45 0 150)" />
@@ -211,7 +224,7 @@
 
             <div class="shape-path3">
                 <!-- COMPONENT -->
-                <div class="path-i">
+                <div class="path-i path-i--offset-right">
                     <svg class="path-i__shape" width="4" height="100%" viewBox="0 0 5 268" fill="none">
                         <path class="path-i__path" d="M2.5 2.11765L2.49999 265.92" />
                     </svg>
@@ -265,9 +278,9 @@
 
 
     <!-- BG IMAGE (At bottom, 'cause it's not really content) -->
-    <!-- <div id="bg">
+    <div id="bg">
         <img src="images/devn-vXpbB4-4OOM-unsplash-medium-optimized-bw-1920x2408.jpg" alt="">
-    </div> -->
+    </div>
 
 
 </body>

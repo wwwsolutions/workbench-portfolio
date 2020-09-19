@@ -1,9 +1,8 @@
 /* Block */
-.rectangle {
+.rectangle-b {
     height: 100%;
-    width: 100%;
+    width: 70%;
     position: relative;
-    background-color: #ddd;
 
     display: flex;
     justify-content: center;
@@ -13,27 +12,30 @@
 }
 
 /* Element */
-.rectangle__shape {
+.rectangle-b__shape {
     height: 100%;
-    width: 70%;
+    width: 100%;
     /* display: block; */
 }
 
 /* Element */
-.rectangle__rect {
+.rectangle-b__rect {
     stroke: red;
-    stroke-width: 4;
+    stroke-width: 10;
+    fill: red;
     /* background-color: red; */
 }
 
 /* Element */
-.rectangle__label {
+.rectangle-b__label {
     position: absolute;
     display: block;
 
-    font-size: 3vw;
-    margin: 2vw 4vw;
+    font-size: 1.5vw;
+    /* margin: 2vw 4vw; */
     text-align: center;
 
-    color: red;
+    color: white;
+    /* background-color: #fdd; */
+    padding: 10px 20px;
 }

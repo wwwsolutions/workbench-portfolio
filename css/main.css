@@ -54,11 +54,11 @@ body {
             "c8     pt1     pt1    pt1    c12       c13         c14"
             "d1     d1      pt2    pt2    about     about       about"
             "d1     d1      pt2    pt2    contact   contact     contact"
-            "pt3    pt3     c34    c35    c36       c37         c38"
+            "pt3    pt3     c31    c32    c33       c34         c35"
             "d2     d2      pt4    pt4    port      port        port"
             "d2     d2      pt4    pt4    stack     stack       stack"
-            "c56    pt5     pt5    pt5    c60       c61         c62"
-            "c64    c65     c66    end    end       c69         c70";
+            "c50    pt5     pt5    pt5    c54       c55         c56"
+            "c57    c58     c59    end    end       c62         c63";
     }
 
     /* RECTANGLES */

@@ -10,7 +10,7 @@
 
     font-size: 1rem;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Element */
@@ -24,19 +24,19 @@
 .path-y__path1,
 .path-y__path2,
 .path-y__path3 {
-    stroke-width: 3;
-    stroke-dasharray: 3;
+    stroke-width: 5;
+    stroke-dasharray: 5;
     stroke: red;
 }
 
 .path-y__point {
-    stroke-width: 3;
+    stroke-width: 5;
     stroke: red;
     fill: red;
 }
 
 .path-y__oval {
-    stroke-width: 2;
+    stroke-width: 3;
     stroke: red;
 }
 
