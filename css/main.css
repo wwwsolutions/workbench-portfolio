@@ -9,7 +9,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 70% 1fr;
+    grid-template-columns: 1fr 50vmax 1fr;
     grid-template-rows: 100px auto 100px;
     grid-template-areas:
         ".      .       . "
@@ -37,22 +37,6 @@ body {
     min-height: 50%;
 }
 
-/* CONTAINER */
-#diag-container {
-    /* filter: hue-rotate(90deg); */
-    position: relative;
-    z-index: 2;
-    width: 50%;
-    /* height: 800px; */
-    /* height: 1600px; */
-    /* min-height: 2408px; */
-    /* min-height: 408px; */
-    margin: 0 auto;
-    padding: 0;
-    background: lightpink;
-    /* font-size: 1rem; */
-}
-
 /* GRID */
 @supports (grid-area: auto) {
     .diag {
@@ -63,7 +47,7 @@ body {
         border: 1px solid red; */
         font-size: 1rem;
         display: grid;
-        grid-template-columns: repeat(7, auto);
+        grid-template-columns: repeat(7, 1fr);
         /* grid-template-rows: 1fr auto 1fr 1fr 2fr 1fr 1fr auto 1fr; */
         grid-template-rows: auto auto auto auto 1fr auto 1fr auto auto;
         grid-template-areas:

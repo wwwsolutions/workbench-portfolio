@@ -32,8 +32,10 @@
     position: absolute;
     display: block;
 
-    font-size: 3vw;
     margin: 2vw 4vw;
+
+    font-size: 3vmax;
+
     text-align: center;
 
     color: red;

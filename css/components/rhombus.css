@@ -8,8 +8,6 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 1rem;
-
     background-color: #ddd;
     border: 1px solid red;
 }
@@ -32,8 +30,9 @@
     position: absolute;
     display: block;
 
-    font-size: 2vw;
     margin: 3vw;
+
+    font-size: 1.5vmax;
     text-align: center;
 
     color: red;
