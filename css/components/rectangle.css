@@ -1,8 +1,9 @@
 /* Block */
-.rhombus {
+.rectangle {
     height: 100%;
     width: 100%;
     position: relative;
+    /* background-color: #ddd; */
 
     display: flex;
     justify-content: center;
@@ -10,30 +11,30 @@
 
     font-size: 1rem;
 
-    background-color: #ddd;
     border: 1px solid red;
 }
 
 /* Element */
-.rhombus__shape {
+.rectangle__shape {
     height: 100%;
     width: 100%;
     display: block;
 }
 
 /* Element */
-.rhombus__rect {
+.rectangle__rect {
     stroke: red;
     stroke-width: 4;
+    /* background-color: red; */
 }
 
 /* Element */
-.rhombus__label {
+.rectangle__label {
     position: absolute;
     display: block;
 
-    font-size: 2vw;
-    margin: 3vw;
+    font-size: 3vw;
+    margin: 2vw 4vw;
     text-align: center;
 
     color: red;
